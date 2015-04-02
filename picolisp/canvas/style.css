@@ -1,0 +1,30 @@
+p {
+    border: 2px black solid;
+    background-color: white;
+    padding: 30px 10px;
+    margin: 10px 50px;
+    font: 14px/1.5 "Times New Roman", Times, Serif;
+}
+    
+
+body {
+    font-size: 14px;
+    color: navy;
+    background-color: purple;
+}
+
+h1 {
+    color: #ffc;
+    background-color: #009;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    background-color: #ccc;
+    margin: 20px;
+    padding: 40px;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: green;
+}

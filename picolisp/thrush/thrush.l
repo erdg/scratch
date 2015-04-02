@@ -1,0 +1,12 @@
+(de ->% (X . Prg)
+   (let Lst (list (car Prg) X)
+      (while (cdr Prg)
+         (list @ Lst) )
+      Lst ) )
+
+(de ->%% (X . Prg)
+   (let Lst (list (car Prg) X)
+      (when (cdr Prg)
+         (cons @ (list Lst))
+         (setq Prg (cdr Prg)) )
+      Lst ) )
